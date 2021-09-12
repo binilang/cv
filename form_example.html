@@ -1,0 +1,129 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test HTML Form</title>
+</head>
+<!-- This file attempt to test various form element, label and attributes -->
+
+<body>
+  <p> Please Insert your personal data</p>
+  <form class="" action="index.html" method="post">
+    <label for="fname">First Name</label>,<br>
+    <input type="text" name="fname" value="e.g. John"><br>
+    <label for="lname">Last Name</label><br>
+    <input type="text" name="" value="e.g Miller"><br>
+    <input type="submit" name="" value="submit">
+    <input type="reset">
+  </form>
+  <hr>
+  <form class="" action="index.html" method="post">
+    <label for="yage">your date of birt</label><br>
+    <input type="date" name="" value="">
+    <input type="submit" name="" value="submit">
+    <input type="reset">
+  </form>
+  <hr>
+  <!-- Mail, Home page - form with input type tel telephone number -->
+  <form>
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email">
+</form>
+<form action="/action_page.php">
+  <label for="homepage">Add your homepage:</label>
+  <input type="url" id="homepage" name="homepage">
+</form>
+<form>
+  <label for="phone">Enter your phone number:</label>
+  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+</form>
+<label for="ymessage">Your Message</label><br>
+<textarea name="name" rows="10" cols="30"></textarea> <br><br>
+<input type="submit" value="Submit">
+<hr>
+<form class="" action="index.html" method="post">
+  <label for="">your age</label>
+  <input type="number" name="" value="" min="18" max="70">
+  <hr>
+</form>
+  <form class="" action="index.html" method="post">
+    <input type="week" name="" value="">
+  </form>
+  <hr>
+  <!-- Example of Radio Button -->
+  <p>Click the radio button bellow to indicate your favorite programing language</p>
+  <form class="" action="index.html" method="post">
+    <input type="radio" id="html" name="fav_language" value="Python">
+    <label for="html">Python</label><br>
+    <input type="radio" id="html" name="fav_language" value="JS">
+    <label for="html">JS</label><br>
+    <input type="radio" id="html" name="fav_language" value="C#">
+    <label for="html">C#</label><br>
+    <input type="submit" name="" value="submit">
+  </form>
+  <!-- Check Box -->
+  <hr>
+  <input type="checkbox" name="" value="">
+  <label for="">do you want to subscribe</label><br>
+  <hr>
+  <form class="" action="index.html" method="post">
+    <input type="button" onclick="alert('hello world')" name="abutton" value="Click me">
+  </form>
+  <hr>
+  <!-- Color Picker -->
+  <form class="" action="index.html" method="post">
+    <label for="favcolor">Input your favorite color</label>
+    <input type="color" name="" value="favcolor">
+    <hr>
+  </form>
+  <form class="" action="index.html" method="post">
+    <p>please confirm your coding proficiency</p>
+    <ol>
+      <li><label for="expertise">(1-10)How proficient are you in Python data type & function</label><br>
+        <input type="range" name="" value="" min="0" max="10">
+        <input type="submit" name="" value="submit"><br>
+      </li>
+      <li><label for="expertise">(1-10)How proficient are you in Python OOP</label><br>
+        <input type="range" name="" value="" min="0" max="10">
+        <input type="submit" name="" value="submit"><br>
+      </li>
+      <li><label for="expertise">(1-10)How proficient are you in Python pandas</label><br>
+        <input type="range" name="" value="" min="0" max="10">
+        <input type="submit" name="" value="submit"><br>
+      </li>
+      <li><label for="expertise">(1-10)How proficient are you in Python Numpy</label><br>
+        <input type="range" name="" value="" min="0" max="10">
+        <input type="submit" name="" value="submit"><br>
+      </li>
+    </ol>
+    <input type="reset">
+  </form>
+  <hr>
+  <p>Please submit your resume by uploading its file</p>
+  <form class="" action="index.html" method="post">
+    <label for="submit resume"> upload file </label>
+    <input type="file" id="myfile" name="myfile">
+  </form>
+  <hr>
+  <!-- Password and User Name -->
+  <form class="" action="index.html" method="post">
+    <input type="text" name="" value="">
+    <label for="username">UserName</label><br><br>
+    <input type="password" name="" value="">
+    <label for="password">password</label><br><br>
+    <input type="submit" name="" value="submit">
+    <input type="reset">
+  </form>
+  <form>
+    <input type="button" name="" value="Submit">
+    <label for="submission">Submit</label><br><br>
+    <input type="submit" name="ronald" value="submit"><br>
+  </form>
+  <hr>
+</body>
+
+</html>
